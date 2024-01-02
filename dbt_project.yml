@@ -35,3 +35,9 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
+    base_tickit:
+      materialized: ephemeral
+      schema: tickit
+    dept_finance:
+      materialized: view
+      schema: dept_finance

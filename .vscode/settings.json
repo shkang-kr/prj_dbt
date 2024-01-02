@@ -1,0 +1,15 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "dbtcluster-6c7clkw7bxdr.cs4ebvjz3ihm.us-east-1.redshift.amazonaws.com",
+            "port": 5439,
+            "driver": "Redshift Driver (Dedicated ver)",
+            "name": "redshift-connection",
+            "database": "sample_data_dev",
+            "username": "awsuser",
+            "password": "Awsuser12#"
+        }
+    ],
+    "dbt.queryLimit": 500
+}
